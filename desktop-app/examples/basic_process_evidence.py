@@ -10,8 +10,11 @@ from tabulate import tabulate
 #   admin.runAsAdmin()
 #   sys.exit()
 
-imagefile = "./resources/fat-img-kw.dd"
-#imagefile = "./resources/ID THEFT 2.E01"
+imagefile = "./resources/dfrws-2006-challenge.raw"
+# imagefile = "./resources/ext-part-test-2.dd"
+# imagefile = "./resources/fat-img-kw.dd"
+# imagefile = "./resources/ID THEFT 2.E01"
+
 imagehandle = pytsk3.Img_Info(imagefile)
 print(imagehandle)
 print(imagehandle.get_size())
